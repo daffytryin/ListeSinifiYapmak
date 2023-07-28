@@ -11,7 +11,7 @@ public class Main {
         liste.add(60);
         liste.add(70);
 
-        System.out.println("Liste Durumu : " + (liste.isEmpty() ? "Boş" : "Dolu"));
+        System.out.println("Eleman alımı sonrası liste Durumu : " + (liste.isEmpty() ? "Boş" : "Dolu"));
 
         // Bulduğu ilk indeksi verir
         System.out.println("Indeks : " + liste.indexOf(20));
